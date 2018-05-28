@@ -1,0 +1,49 @@
+html, body{
+    height: 100%;
+}
+
+body{
+
+background-image: url('../image/img.jpg');
+background-repeat: no-repeat;
+
+   background-size: cover;
+
+   display:flex;
+   justify-content: center;
+   align-items: center;
+ 
+ 
+}
+ 
+.title{
+    text-align: center;
+    color: black;
+    margin: 0 0 25px;
+}
+.main-container{
+
+    max-width: 500px;
+    width: 100%;
+    padding: 30px;
+   background-color:floralwhite;
+}
+.new-task-container{
+
+   margin-left: 50px;
+
+
+
+
+}
+
+.tasks-container ul{
+ margin:20px 0 0;
+ list-style: none;
+
+
+}
+
+.new-class{
+    margin-bottom:15px;
+}
